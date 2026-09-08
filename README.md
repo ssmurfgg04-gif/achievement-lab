@@ -1,20 +1,12 @@
-# achievement-lab
+# learning-notes
 
-The live lab notebook behind [The GitHub Achievements Field Guide](https://github.com/ssmurfgg04-gif/github-achievements-field-guide).
+Short daily notes on Python and git. Every note lands through a pull request, so the git history doubles as practice for the workflow itself.
 
-Everything in this repository happened for a reason. In one controlled run, on an account that was hours old, this repo was used to test how GitHub achievements really behave:
+## Contents
 
-- Issue #1 was opened and closed in **1.4 seconds** (Quickdraw target)
-- **9 Q&A discussions** were created and an answer was marked accepted in each (Galaxy Brain target). Try the Discussions tab, they are all live.
-- **62 pull requests** authored by the account were merged in a single day (Pull Shark target)
-- **50 commits** on main carry a `Co-authored-by:` trailer, plus a 12 PR hedge batch with the trailer in the other direction (Pair Extraordinaire target)
+- `notes/` - one topic per day. Starts with Python fundamentals (comprehensions, dataclasses, generators, the usual suspects) and gets into git workflow commands later on (stash, bisect, rebase -i, worktree)
+- Discussions - Q&A threads on the same topics. If something here is wrong or can be explained better, that is the place to say so
 
-The result, and the part worth your attention: the two single action badges appeared within the hour. The three high volume badges stayed hidden past the documented 24 hour processing window, even though every count was verified through the GitHub API. Bulk farmed activity sits in the queue. Real contributions flow.
+## Why pull requests
 
-That single finding is why the guide recommends the slow path. Read the full requirements, the gotchas that cost us time, and the raw log here:
-
-- Guide: https://github.com/ssmurfgg04-gif/github-achievements-field-guide
-- Raw data: https://github.com/ssmurfgg04-gif/github-achievements-field-guide/blob/main/data/unlock-log.json
-- Badge checker CLI: https://github.com/ssmurfgg04-gif/github-achievements-field-guide/tree/main/cli
-
-If you replicate the experiment, the guide links replication logs. Open a PR.
+Typing a note into a file is easy. Opening a branch, committing it, and merging it back is the actual point. The repo is the practice track.
